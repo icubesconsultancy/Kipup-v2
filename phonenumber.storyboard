@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14D131" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7702" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -16,24 +17,13 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Kip Up" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="O0V-3E-5zK">
-                                <rect key="frame" x="68" y="84" width="187" height="108"/>
-                                <fontDescription key="fontDescription" name="Cochin" family="Cochin" pointSize="59"/>
-                                <color key="textColor" red="0.96249605429999996" green="0.3906198689" blue="0.093277937310000003" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Phone Number" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="9fx-Ki-fCI">
-                                <rect key="frame" x="16" y="245" width="285" height="30"/>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="yHf-cy-47G">
+                                <rect key="frame" x="118" y="349" width="364" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="yHf-cy-47G">
-                                <rect key="frame" x="16" y="326" width="285" height="30"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WtZ-wm-aYf">
-                                <rect key="frame" x="88" y="394" width="147" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WtZ-wm-aYf">
+                                <rect key="frame" x="118" y="419" width="364" height="30"/>
                                 <color key="backgroundColor" red="0.96249605429999996" green="0.3906198689" blue="0.093277937310000003" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Next">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -41,29 +31,69 @@
                                 </state>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Phone Number" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="z1N-yd-2dQ">
-                                <rect key="frame" x="16" y="213" width="116" height="21"/>
+                                <rect key="frame" x="118" y="243" width="116" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.96249605429999996" green="0.3906198689" blue="0.093277937310000003" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Email" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="w7m-zi-GFv">
-                                <rect key="frame" x="16" y="296" width="105" height="21"/>
+                                <rect key="frame" x="118" y="320" width="47" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.96249605429999996" green="0.3906198689" blue="0.093277937310000003" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Lets get started!" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8fs-T3-JMl">
-                                <rect key="frame" x="88" y="180" width="125" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
-                                <nil key="highlightedColor"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="klogo.png" translatesAutoresizingMaskIntoConstraints="NO" id="EsX-b4-Ui7">
+                                <rect key="frame" x="176" y="58" width="236" height="81"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Never lose a connection again" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LiS-Q7-Fg6">
+                                <rect key="frame" x="176" y="147" width="249" height="21"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                                <color key="textColor" white="0.5" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                <color key="highlightedColor" white="0.5" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                             </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Phone Number" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="9fx-Ki-fCI">
+                                <rect key="frame" x="118" y="272" width="364" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="EsX-b4-Ui7" secondAttribute="trailing" constant="160" id="0TG-UM-INi"/>
+                            <constraint firstItem="9fx-Ki-fCI" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="103" id="2bj-6B-p50"/>
+                            <constraint firstAttribute="centerX" secondItem="WtZ-wm-aYf" secondAttribute="centerX" id="4Jo-xR-fWC"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="WtZ-wm-aYf" secondAttribute="trailing" constant="103" id="4Sc-Xd-Xiq"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="9fx-Ki-fCI" secondAttribute="trailing" constant="103" id="4kZ-ZE-7ju"/>
+                            <constraint firstItem="WtZ-wm-aYf" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="103" id="7K2-BI-yOn"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="yHf-cy-47G" secondAttribute="trailing" constant="103" id="8cF-Hn-NSk"/>
+                            <constraint firstItem="yHf-cy-47G" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="103" id="A3n-uL-Wt8"/>
+                            <constraint firstAttribute="centerY" secondItem="EsX-b4-Ui7" secondAttribute="centerY" id="B1i-i3-5dP"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="LiS-Q7-Fg6" secondAttribute="trailing" constant="160" id="BKW-kJ-stD"/>
+                            <constraint firstAttribute="centerY" secondItem="yHf-cy-47G" secondAttribute="centerY" id="IiR-hc-PN0"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="EsX-b4-Ui7" secondAttribute="trailing" constant="160" id="JNi-3Q-Lbb"/>
+                            <constraint firstAttribute="centerX" secondItem="LiS-Q7-Fg6" secondAttribute="centerX" id="LJu-hj-lIz"/>
+                            <constraint firstAttribute="centerX" secondItem="LiS-Q7-Fg6" secondAttribute="centerX" id="M7w-N3-kKR"/>
+                            <constraint firstAttribute="centerY" secondItem="LiS-Q7-Fg6" secondAttribute="centerY" id="RBD-yk-jwV"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="LiS-Q7-Fg6" secondAttribute="trailing" constant="160" id="YGB-Sr-uUd"/>
+                            <constraint firstAttribute="centerX" secondItem="yHf-cy-47G" secondAttribute="centerX" id="acR-6q-4B5"/>
+                            <constraint firstAttribute="centerX" secondItem="yHf-cy-47G" secondAttribute="centerX" id="aqi-PH-cNO"/>
+                            <constraint firstAttribute="centerX" secondItem="EsX-b4-Ui7" secondAttribute="centerX" id="dsS-06-heF"/>
+                            <constraint firstAttribute="centerX" secondItem="9fx-Ki-fCI" secondAttribute="centerX" id="e6y-QK-tae"/>
+                            <constraint firstItem="yHf-cy-47G" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="103" id="e9w-QR-FmI"/>
+                            <constraint firstAttribute="centerY" secondItem="EsX-b4-Ui7" secondAttribute="centerY" id="fug-m4-B1A"/>
+                            <constraint firstAttribute="centerY" secondItem="WtZ-wm-aYf" secondAttribute="centerY" id="lhb-ic-B7P"/>
+                            <constraint firstAttribute="centerY" secondItem="yHf-cy-47G" secondAttribute="centerY" id="nb7-7V-6Fm"/>
+                            <constraint firstAttribute="centerY" secondItem="LiS-Q7-Fg6" secondAttribute="centerY" id="ryO-6m-9Au"/>
+                            <constraint firstAttribute="centerX" secondItem="EsX-b4-Ui7" secondAttribute="centerX" id="v0v-ce-ABW"/>
+                            <constraint firstAttribute="centerY" secondItem="9fx-Ki-fCI" secondAttribute="centerY" id="wJS-Jc-qWM"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
         </scene>
     </scenes>
+    <resources>
+        <image name="klogo.png" width="222" height="76"/>
+    </resources>
 </document>

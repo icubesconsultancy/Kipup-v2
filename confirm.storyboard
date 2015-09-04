@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14D131" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7702" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -16,57 +17,82 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Kip Up" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="O0V-3E-5zK">
-                                <rect key="frame" x="68" y="84" width="187" height="108"/>
-                                <fontDescription key="fontDescription" name="Cochin" family="Cochin" pointSize="59"/>
-                                <color key="textColor" red="0.96249605429999996" green="0.3906198689" blue="0.093277937310000003" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Confirmation Code" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="9fx-Ki-fCI">
-                                <rect key="frame" x="16" y="245" width="285" height="30"/>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Confirmation Code" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="9fx-Ki-fCI">
+                                <rect key="frame" x="118" y="269" width="364" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WtZ-wm-aYf">
-                                <rect key="frame" x="88" y="394" width="147" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WtZ-wm-aYf">
+                                <rect key="frame" x="112" y="410" width="364" height="30"/>
                                 <color key="backgroundColor" red="0.96249605429999996" green="0.3906198689" blue="0.093277937310000003" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Next">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                     <color key="titleShadowColor" cocoaTouchSystemColor="lightTextColor"/>
                                 </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s9S-hV-81J">
-                                <rect key="frame" x="88" y="469" width="147" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s9S-hV-81J">
+                                <rect key="frame" x="112" y="482" width="364" height="30"/>
                                 <color key="backgroundColor" red="0.96249605429999996" green="0.3906198689" blue="0.093277937310000003" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Send Again">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                     <color key="titleShadowColor" cocoaTouchSystemColor="lightTextColor"/>
                                 </state>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Confirmation Code" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="z1N-yd-2dQ">
-                                <rect key="frame" x="16" y="213" width="145" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Please enter the confirmation code sent via SMS" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="14M-J4-Ff2">
+                                <rect key="frame" x="113" y="315" width="374" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="klogo.png" translatesAutoresizingMaskIntoConstraints="NO" id="0dw-Q2-iut">
+                                <rect key="frame" x="176" y="53" width="236" height="81"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Never lose a connection again" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="20n-gz-9Ej">
+                                <rect key="frame" x="176" y="142" width="249" height="21"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                                <color key="textColor" white="0.5" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                <color key="highlightedColor" white="0.5" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Confirmation Code" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="z1N-yd-2dQ">
+                                <rect key="frame" x="118" y="240" width="145" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.96249605429999996" green="0.3906198689" blue="0.093277937310000003" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Lets get started!" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8fs-T3-JMl">
-                                <rect key="frame" x="88" y="180" width="125" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Please enter the confirmation code sent via SMS" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="14M-J4-Ff2">
-                                <rect key="frame" x="16" y="284" width="374" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="centerY" secondItem="0dw-Q2-iut" secondAttribute="centerY" id="7X1-0a-XCJ"/>
+                            <constraint firstAttribute="centerY" secondItem="WtZ-wm-aYf" secondAttribute="centerY" id="8VN-wp-ag7"/>
+                            <constraint firstAttribute="centerY" secondItem="9fx-Ki-fCI" secondAttribute="centerY" id="A74-5P-gaK"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="WtZ-wm-aYf" secondAttribute="trailing" constant="96" id="B8O-Ph-K9B"/>
+                            <constraint firstAttribute="centerX" secondItem="0dw-Q2-iut" secondAttribute="centerX" id="D24-6N-hrv"/>
+                            <constraint firstAttribute="centerY" secondItem="s9S-hV-81J" secondAttribute="centerY" id="DcZ-Fu-KgP"/>
+                            <constraint firstAttribute="centerX" secondItem="14M-J4-Ff2" secondAttribute="centerX" id="F5Y-uT-bjU"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="z1N-yd-2dQ" secondAttribute="trailing" constant="212" id="Hfo-kb-OlN"/>
+                            <constraint firstItem="9fx-Ki-fCI" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="96" id="Zac-XH-9BB"/>
+                            <constraint firstAttribute="centerX" secondItem="s9S-hV-81J" secondAttribute="centerX" id="a8E-fu-wPh"/>
+                            <constraint firstAttribute="centerX" secondItem="9fx-Ki-fCI" secondAttribute="centerX" id="aYz-72-vyq"/>
+                            <constraint firstAttribute="centerX" secondItem="20n-gz-9Ej" secondAttribute="centerX" id="dUG-B2-DEF"/>
+                            <constraint firstAttribute="centerX" secondItem="z1N-yd-2dQ" secondAttribute="centerX" id="eg6-0R-hLH"/>
+                            <constraint firstAttribute="centerX" secondItem="WtZ-wm-aYf" secondAttribute="centerX" id="hjb-hA-10x"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="9fx-Ki-fCI" secondAttribute="trailing" constant="96" id="l6t-yy-jpR"/>
+                            <constraint firstAttribute="centerY" secondItem="z1N-yd-2dQ" secondAttribute="centerY" id="s1U-fH-Sox"/>
+                            <constraint firstItem="14M-J4-Ff2" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="96" id="sYY-Cl-LvS"/>
+                            <constraint firstAttribute="centerY" secondItem="20n-gz-9Ej" secondAttribute="centerY" id="sgz-DQ-AIi"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="14M-J4-Ff2" secondAttribute="trailing" constant="96" id="tAx-zr-6Bd"/>
+                            <constraint firstAttribute="centerY" secondItem="14M-J4-Ff2" secondAttribute="centerY" id="v1j-kw-E9M"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="s9S-hV-81J" secondAttribute="trailing" constant="96" id="wCo-xj-BkB"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="20n-gz-9Ej" secondAttribute="trailing" constant="160" id="wQI-9d-Wbv"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="0dw-Q2-iut" secondAttribute="trailing" constant="160" id="wod-Sw-FBP"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
         </scene>
     </scenes>
+    <resources>
+        <image name="klogo.png" width="222" height="76"/>
+    </resources>
 </document>

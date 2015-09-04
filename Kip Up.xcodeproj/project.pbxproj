@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		39B2D4501B994694006DC508 /* klogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 39B2D44F1B994694006DC508 /* klogo.png */; };
 		B7ADD63F1B96435C007496CF /* registratin.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7ADD63E1B96435C007496CF /* registratin.storyboard */; };
 		B7B7DD421B95C68D00955D1F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B7B7DD411B95C68D00955D1F /* main.m */; };
 		B7B7DD451B95C68D00955D1F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B7B7DD441B95C68D00955D1F /* AppDelegate.m */; };
@@ -31,6 +32,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		39B2D44F1B994694006DC508 /* klogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = klogo.png; path = ../klogo.png; sourceTree = "<group>"; };
 		B7ADD63E1B96435C007496CF /* registratin.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = registratin.storyboard; sourceTree = "<group>"; };
 		B7B7DD3C1B95C68D00955D1F /* Kip Up.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Kip Up.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7B7DD401B95C68D00955D1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -95,6 +97,7 @@
 				B7B7DD4A1B95C68D00955D1F /* ViewController.m */,
 				B7B7DD4C1B95C68D00955D1F /* Main.storyboard */,
 				B7B7DD4F1B95C68D00955D1F /* Images.xcassets */,
+				39B2D44F1B994694006DC508 /* klogo.png */,
 				B7B7DD511B95C68D00955D1F /* LaunchScreen.xib */,
 				B7B7DD461B95C68D00955D1F /* Kip_Up.xcdatamodeld */,
 				B7B7DD3F1B95C68D00955D1F /* Supporting Files */,
@@ -217,6 +220,7 @@
 				B7B7DD531B95C68D00955D1F /* LaunchScreen.xib in Resources */,
 				B7B7DD501B95C68D00955D1F /* Images.xcassets in Resources */,
 				B7BD6F961B989890009C338E /* confirm.storyboard in Resources */,
+				39B2D4501B994694006DC508 /* klogo.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
