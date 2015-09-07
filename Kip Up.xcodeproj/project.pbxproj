@@ -8,6 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		39B2D4501B994694006DC508 /* klogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 39B2D44F1B994694006DC508 /* klogo.png */; };
+		B70D0ED51B9B725000D8A10D /* registration.xib in Resources */ = {isa = PBXBuildFile; fileRef = B70D0ED41B9B725000D8A10D /* registration.xib */; };
+		B70D0ED81B9B76F900D8A10D /* Failure.png in Resources */ = {isa = PBXBuildFile; fileRef = B70D0ED61B9B76F900D8A10D /* Failure.png */; };
+		B70D0ED91B9B76F900D8A10D /* Failure@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B70D0ED71B9B76F900D8A10D /* Failure@2x.png */; };
+		B70D0EDF1B9B79BC00D8A10D /* firends.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B70D0EDE1B9B79BC00D8A10D /* firends.storyboard */; };
+		B70D0EE11B9B828E00D8A10D /* account.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B70D0EE01B9B828E00D8A10D /* account.storyboard */; };
+		B745DF841B9BFA4C00C5EB76 /* request.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B745DF831B9BFA4C00C5EB76 /* request.storyboard */; };
+		B745DF861B9BFC8300C5EB76 /* menu.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B745DF851B9BFC8300C5EB76 /* menu.storyboard */; };
 		B7ADD63F1B96435C007496CF /* registratin.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7ADD63E1B96435C007496CF /* registratin.storyboard */; };
 		B7B7DD421B95C68D00955D1F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B7B7DD411B95C68D00955D1F /* main.m */; };
 		B7B7DD451B95C68D00955D1F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B7B7DD441B95C68D00955D1F /* AppDelegate.m */; };
@@ -33,6 +40,14 @@
 
 /* Begin PBXFileReference section */
 		39B2D44F1B994694006DC508 /* klogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = klogo.png; path = ../klogo.png; sourceTree = "<group>"; };
+		B70D0ED31B9B70D500D8A10D /* registration.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = registration.h; path = ../registration.h; sourceTree = "<group>"; };
+		B70D0ED41B9B725000D8A10D /* registration.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = registration.xib; sourceTree = "<group>"; };
+		B70D0ED61B9B76F900D8A10D /* Failure.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Failure.png; sourceTree = "<group>"; };
+		B70D0ED71B9B76F900D8A10D /* Failure@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Failure@2x.png"; sourceTree = "<group>"; };
+		B70D0EDE1B9B79BC00D8A10D /* firends.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = firends.storyboard; path = ../firends.storyboard; sourceTree = "<group>"; };
+		B70D0EE01B9B828E00D8A10D /* account.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = account.storyboard; path = ../account.storyboard; sourceTree = "<group>"; };
+		B745DF831B9BFA4C00C5EB76 /* request.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = request.storyboard; sourceTree = "<group>"; };
+		B745DF851B9BFC8300C5EB76 /* menu.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = menu.storyboard; path = ../menu.storyboard; sourceTree = "<group>"; };
 		B7ADD63E1B96435C007496CF /* registratin.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = registratin.storyboard; sourceTree = "<group>"; };
 		B7B7DD3C1B95C68D00955D1F /* Kip Up.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Kip Up.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7B7DD401B95C68D00955D1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -70,6 +85,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B70D0ED01B9B701200D8A10D /* registration */ = {
+			isa = PBXGroup;
+			children = (
+				B7ADD63E1B96435C007496CF /* registratin.storyboard */,
+				B70D0ED31B9B70D500D8A10D /* registration.h */,
+				B70D0ED41B9B725000D8A10D /* registration.xib */,
+				B7BD6F931B98977E009C338E /* phonenumber.storyboard */,
+				B7BD6F951B989890009C338E /* confirm.storyboard */,
+			);
+			name = registration;
+			sourceTree = "<group>";
+		};
 		B7B7DD331B95C68D00955D1F = {
 			isa = PBXGroup;
 			children = (
@@ -98,10 +125,11 @@
 				B7B7DD4C1B95C68D00955D1F /* Main.storyboard */,
 				B7B7DD4F1B95C68D00955D1F /* Images.xcassets */,
 				39B2D44F1B994694006DC508 /* klogo.png */,
+				B70D0ED61B9B76F900D8A10D /* Failure.png */,
+				B70D0ED71B9B76F900D8A10D /* Failure@2x.png */,
 				B7B7DD511B95C68D00955D1F /* LaunchScreen.xib */,
 				B7B7DD461B95C68D00955D1F /* Kip_Up.xcdatamodeld */,
 				B7B7DD3F1B95C68D00955D1F /* Supporting Files */,
-				B7ADD63E1B96435C007496CF /* registratin.storyboard */,
 			);
 			path = "Kip Up";
 			sourceTree = "<group>";
@@ -109,8 +137,8 @@
 		B7B7DD3F1B95C68D00955D1F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				B7BD6F951B989890009C338E /* confirm.storyboard */,
-				B7BD6F931B98977E009C338E /* phonenumber.storyboard */,
+				B70D0ED01B9B701200D8A10D /* registration */,
+				B7C30D191B9D5A0A000D4FDB /* application ui */,
 				B7B7DD401B95C68D00955D1F /* Info.plist */,
 				B7B7DD411B95C68D00955D1F /* main.m */,
 			);
@@ -132,6 +160,17 @@
 				B7B7DD5D1B95C68D00955D1F /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B7C30D191B9D5A0A000D4FDB /* application ui */ = {
+			isa = PBXGroup;
+			children = (
+				B70D0EDE1B9B79BC00D8A10D /* firends.storyboard */,
+				B745DF851B9BFC8300C5EB76 /* menu.storyboard */,
+				B745DF831B9BFA4C00C5EB76 /* request.storyboard */,
+				B70D0EE01B9B828E00D8A10D /* account.storyboard */,
+			);
+			name = "application ui";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -214,13 +253,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B70D0ED81B9B76F900D8A10D /* Failure.png in Resources */,
 				B7B7DD4E1B95C68D00955D1F /* Main.storyboard in Resources */,
 				B7ADD63F1B96435C007496CF /* registratin.storyboard in Resources */,
+				B70D0ED91B9B76F900D8A10D /* Failure@2x.png in Resources */,
+				B745DF841B9BFA4C00C5EB76 /* request.storyboard in Resources */,
 				B7BD6F941B98977E009C338E /* phonenumber.storyboard in Resources */,
 				B7B7DD531B95C68D00955D1F /* LaunchScreen.xib in Resources */,
+				B70D0ED51B9B725000D8A10D /* registration.xib in Resources */,
 				B7B7DD501B95C68D00955D1F /* Images.xcassets in Resources */,
 				B7BD6F961B989890009C338E /* confirm.storyboard in Resources */,
 				39B2D4501B994694006DC508 /* klogo.png in Resources */,
+				B70D0EE11B9B828E00D8A10D /* account.storyboard in Resources */,
+				B70D0EDF1B9B79BC00D8A10D /* firends.storyboard in Resources */,
+				B745DF861B9BFC8300C5EB76 /* menu.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
